@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './App.css';
-import NavBar from './components/NavBar/NavBar';
 import Hero from './components/Hero/Hero';
 
 class App extends Component{
@@ -23,11 +22,13 @@ class App extends Component{
 
     return (
       <>
-        <NavBar 
+        {/* <NavBar 
           isMenuOpen={isMenuOpen}
           toggleMenu={this.toggleMobileMenu}
-        />
-        <Hero />
+        /> */}
+        <Hero  
+          isMenuOpen={isMenuOpen}
+          toggleMenu={this.toggleMobileMenu}/>
       </>
     )
   }

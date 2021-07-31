@@ -7,7 +7,7 @@ const NavBar = ({ isMenuOpen, toggleMenu }) => {
     return (
         <>
         <nav className='nav-bar'> 
-            <h1>Start Bootstrap</h1>
+            <h1 className='logo'>Start Bootstrap</h1>
             <ul className='desktop-nav'>
                 <li>SERVICES</li>
                 <li>PORTFOLIO</li>

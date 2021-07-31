@@ -4,30 +4,34 @@
     flex-direction: column;
     color: white;
     align-items: center;
-    padding: 100px 0px;
     background-image: url(https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 50vh;
+    height: 745px;
+    text-align: center;
 }
 
 .tag-line {
-    font-size: 25px;
+    font-size: 37px;
+    font-style: italic;
+    font-weight: 500;
+    margin-top: 195px;
     margin-bottom: 15px;
 }
 
 .intro {
-    font-size: 55px;
-    margin-bottom: 25px;
+    font-size: 80px;
+    margin-bottom: 55px;
 }
 
 .tell-me-more-btn {
     padding: 10px;
-    width: 150px;
-    border-radius: 2px;
+    width: 220px;
+    border-radius: 5px;
     color: #fff;
-    height: 50px;
-    font-weight: bolder;
+    height: 70px;
+    font-size: 20px;
+    font-weight: 600;
     border: transparent;
     background-color: #ffc800;
     border-color: #ffc800;
