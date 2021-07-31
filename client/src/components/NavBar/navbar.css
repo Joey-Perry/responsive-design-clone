@@ -1,0 +1,24 @@
+.nav-bar {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0px;
+    background-color: black;
+    color: white;
+}
+
+.desktop-nav {
+    display: none;
+    list-style: none;
+    width: 60%;
+    justify-content: space-around;
+}
+
+.desktop-nav li:hover {
+    cursor: pointer;
+}
+
+@media (min-width: 992px) {
+    .desktop-nav {
+        display: flex;
+    }
+}

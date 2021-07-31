@@ -1,0 +1,25 @@
+.menu {
+    background-color: black;
+    color: transparent;
+    list-style: none;
+    position: fixed;
+    height: 0;
+    width: 100%;
+    padding: 5px 0px 0px 100px;
+    transition-property: height, color;
+    transition-duration: .35s;
+}
+
+.menu li {
+    margin: 20px 0px;
+}
+
+.menu li:hover {
+    cursor: pointer;
+}
+
+.menu-open {
+    height: 30vh;
+    color: white;
+}
+

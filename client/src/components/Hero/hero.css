@@ -1,0 +1,40 @@
+.header {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    padding: 100px 0px;
+    background-image: url(https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+}
+
+.tag-line {
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.intro {
+    font-size: 55px;
+    margin-bottom: 25px;
+}
+
+.tell-me-more-btn {
+    padding: 10px;
+    width: 150px;
+    border-radius: 2px;
+    color: #fff;
+    height: 50px;
+    font-weight: bolder;
+    border: transparent;
+    background-color: #ffc800;
+    border-color: #ffc800;
+}
+
+.tell-me-more-btn:hover {
+    cursor: pointer;
+    background-color: #d9aa00;
+    border-color: #cca000;
+}
